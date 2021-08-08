@@ -1,0 +1,7 @@
+module CardIO {
+  header "CardIO.h"
+
+  export *
+  module * { export * }
+}
+

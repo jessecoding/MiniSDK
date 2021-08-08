@@ -1,0 +1,40 @@
+PODS:
+  - AWSAuthCore (2.15.1):
+    - AWSCore (= 2.15.1)
+  - AWSCognitoIdentityProvider (2.15.1):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.15.1)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.15.1)
+  - AWSMobileClient (2.15.1):
+    - AWSAuthCore (= 2.15.1)
+    - AWSCognitoIdentityProvider (= 2.15.1)
+  - CardIO (5.4.1)
+
+DEPENDENCIES:
+  - AWSMobileClient (= 2.15.1)
+  - CardIO (from `./CardIO-iOS-SDK`)
+
+SPEC REPOS:
+  trunk:
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+
+EXTERNAL SOURCES:
+  CardIO:
+    :path: "./CardIO-iOS-SDK"
+
+SPEC CHECKSUMS:
+  AWSAuthCore: d98801d505ea332fd1ec28fbaf3377e0ce02100f
+  AWSCognitoIdentityProvider: 5172f21b3530adbb1549501cd26e126bb211b85c
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 7dec5eefb9b95739adec68dcb3dba2a6770376a6
+  AWSMobileClient: 23aa8e4a787553742861ea1e3272420a9aaf4938
+  CardIO: e0564924c4b829985f9d8c992d3e6aaaebdfaad5
+
+PODFILE CHECKSUM: bda57fba98a5580212f9c827f6c8fdcbf7bb2b85
+
+COCOAPODS: 1.10.1
